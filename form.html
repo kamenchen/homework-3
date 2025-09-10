@@ -5,6 +5,67 @@
   </head>
 
   <body>
-    <h2 href="index.html">Back to Introduction Page</h2>
+    <h2>Interest Form</h2>
+    <h4 href="index.html">Back to Introduction Page</h4>
+    <form>
+      <!--text input-->
+      <p>
+        <label for="user">Name</label>
+        <input type="text" name="user" id="user">
+      </p>
+      <!--password input-->
+      <p>
+        <label for="secret">Password</label>
+        <input type="password" name="secret">
+      </p>
+      <!--radio buttons-->
+      <p>
+        radio
+        <div>
+          <label for="one">One</label>
+          <input type="radio" name="choices" value="choice one" id="one">
+        </div>
+        <div>
+          <label for="two">Two</label>
+          <input type="radio" name="choices" value="choice two" id="two">
+        </div>
+        <div>
+          <label for="three">Three</label>
+          <input type="radio" name="choices" value="choice three" id="three">
+        </div>
+      </p>
+      <!--checkboxes-->
+      <p>
+        checkbox
+        <label for="one">One</label>
+        <input type="checkbox" name="one" id="one">
+      </p>
+      <p>
+        <label for="two">Two</label>
+        <input type="checkbox" name="two" id="two">
+      </p>
+      <!--multiple select box-->
+      <p>
+        multiple
+        <select name="choice" size="4" multiple>
+          <option value="one">One</option>
+          <option value="two">Two</option>
+          <option value="three">Three</option>
+          <option value="four">Four</option>
+          <option value="five">Five</option>
+          <option value="six">Six</option>
+          <option value="seven">Seven</option>
+        </select>
+      </p>
+      <!--date input-->
+      <p>
+        <label for="date">Today's Date</label>
+        <input type="date" name="date" id="date">
+      </p>
+      <!--submit button-->
+      <p>
+        <input type="submit" value="Submit">
+      </p>
+    </form>
   </body>
 </html>
