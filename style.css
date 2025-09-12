@@ -1,0 +1,10 @@
+body{
+  font-family: Helvetica;
+}
+p{
+  font-family: Calibri;
+}
+h1,h2{
+  font-family: Courier New;
+  color: red;
+}
