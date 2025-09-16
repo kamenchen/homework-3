@@ -1,5 +1,7 @@
 body{
   font-family: Helvetica;
+  background-color: #D3C0CD;
+  font-size: 18px;
 }
 p{
   font-family: Calibri;
@@ -7,6 +9,8 @@ p{
 h1,h2{
   font-family: Courier New;
   color: red;
+  text-align: center;
+  padding: 10px;
 }
 a:link{
   color: red;
@@ -15,10 +19,15 @@ a:visited{
   color: green;
 }
 input[type="submit"]:hover{
-  color: red;
+  background-color: red;
 }
 input[type="submit"]:active{
-  color: green;
+  background-color: green;
+}
+#contact{
+  padding: 10px;
+  padding-left: 50px;
+  border: 3px solid #679289;
 }
 ul{
   list-style-type: square;
@@ -26,9 +35,32 @@ ul{
 ol{
   list-style-type: lower-roman;
 }
+table {
+  table-layout: fixed;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+.column {
+  width: 33%;
+}
 table tr:hover{
   background-color: lightblue;
 }
 tr:nth-child(even){
   background-color: lightgray;
+}
+th {
+  padding: 20px;
+}
+td {
+  padding: 20px;
+  text-align: center;
+}
+form {
+  padding: 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }

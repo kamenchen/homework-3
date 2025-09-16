@@ -6,65 +6,69 @@
 
   <body>
     <h2>Interest Form</h2>
-    <a href="index.html">Back to Introduction Page</a>
+    <a href="index.html">Back to Introduction Page</a><hr color="#679289">
     <form>
       <!--text input-->
       <p>
-        <label for="user">Name</label>
+        <label for="user"><b>Name</b></label>
         <input type="text" name="user" id="user">
       </p>
       <!--password input-->
       <p>
-        <label for="secret">Password</label>
+        <label for="secret"><b>Password</b></label>
         <input type="password" name="secret">
-      </p>
+      </p><hr color="#679289">
       <!--radio buttons-->
       <p>
-        radio
-        <div>
-          <label for="one">One</label>
-          <input type="radio" name="choices" value="choice one" id="one">
-        </div>
-        <div>
-          <label for="two">Two</label>
-          <input type="radio" name="choices" value="choice two" id="two">
-        </div>
-        <div>
-          <label for="three">Three</label>
-          <input type="radio" name="choices" value="choice three" id="three">
-        </div>
-      </p>
+        <u><b>Desired Position</b></u>
+          <div>
+            <label for="one">Manager</label>
+            <input type="radio" name="choices" value="choice one" id="one">
+           </div>
+          <div>
+            <label for="two">Shift Lead</label>
+            <input type="radio" name="choices" value="choice two" id="two">
+          </div>
+          <div>
+            <label for="three">Barista</label>
+            <input type="radio" name="choices" value="choice three" id="three">
+          </div>
+      </p><hr color="#679289">
       <!--checkboxes-->
       <p>
-        checkbox
-        <label for="one">One</label>
-        <input type="checkbox" name="one" id="one">
-      </p>
-      <p>
-        <label for="two">Two</label>
-        <input type="checkbox" name="two" id="two">
-      </p>
+        <u><b>Do you have a resume and/or cover letter?</b></u>
+        <div>
+          <label for="one">Resume</label>
+          <input type="checkbox" name="one" id="one">
+          <label for="two">Cover Letter</label>
+          <input type="checkbox" name="two" id="two">
+        </div>
+      </p><hr color="#679289">
       <!--multiple select box-->
       <p>
-        multiple
-        <select name="choice" size="4" multiple>
-          <option value="one">One</option>
-          <option value="two">Two</option>
-          <option value="three">Three</option>
-          <option value="four">Four</option>
-          <option value="five">Five</option>
-          <option value="six">Six</option>
-          <option value="seven">Seven</option>
-        </select>
-      </p>
+        <u><b>Availability (Ctrl + click to select multiple)</b></u>
+        <div>
+          <select name="choice" size="5" multiple>
+            <option value="one">Monday</option>
+            <option value="two">Tuesday</option>
+            <option value="three">Wednesday</option>
+            <option value="four">Thursday</option>
+            <option value="five">Friday</option>
+            <option value="six">Saturday</option>
+            <option value="seven">Sunday</option>
+          </select>
+        </div>
+      </p><hr color="#679289">
       <!--date input-->
       <p>
-        <label for="date">Today's Date</label>
-        <input type="date" name="date" id="date">
-      </p>
+        <u><b>Earliest Start Date</b></u>
+        <div>
+          <input type="date" name="date" id="date">
+        </div>
+      </p><hr color="#679289">
       <!--submit button-->
       <p>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" style="width: 100px; height: 50px;">
       </p>
     </form>
   </body>
